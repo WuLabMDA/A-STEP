@@ -2,7 +2,7 @@
 
 Attention-based Scoring for Treatment Effect Prediction (A-STEP) is an integrated framework that estimates the likelihood of benefit from adding chemotherapy to Immune Checkpoint Inhibitors (ICIs) therapy using five distinct weighting-based scoring functions. Using an attention-based mechanism from meta-heuristic family to fuse the five functions, A-STEP models the heterogenous treatment effects between ICI-Mono and ICI-Chemo for patients at risk for early progression using multimodal data from genomics and clinicopathological variables. Based on the benefit scores, A-STEP will then recommend which treatment is potentially more effective for a patient.
 
-This repository contains the code for the A-STEP framework, which quantifies heterogeneous treatment effects as published in [XXXXX]. The repository is organized into three primary folders: `Modeling`, `PSM`, and `SHAP`. Each folder contains scripts designed to facilitate model training, reproduction of results, and various analyses presented in the publication.
+This repository contains the code for the A-STEP framework, which quantifies heterogeneous treatment effects as published in Nature Communications. The repository is organized into three primary folders: `Modeling`, `PSM`, and `SHAP`. Each folder contains scripts designed to facilitate model training, reproduction of results, and various analyses presented in the publication.
 
 ![A-STEP](Pics/Fig1.jpg)
 
